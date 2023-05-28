@@ -15,17 +15,20 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if let card = selectedCard {
-                Text("\(card.emoji) \(card.name) - \(card.description)")
+                Text("\(card.emoji)")
+                    .font(.largeTitle)
+                Text("\(card.name)")
                 Text(card.isReversed ? "逆位置" : "正位置")
                     .font(.subheadline)
                     .foregroundColor(card.isReversed ? .red : .green)
+                Text("\(card.description)")
                 Button(action: { selectedCard = nil }) {
                     Text("デッキに戻る")
                 }
             } else {
                 GridView(Array(tarotDeck.cards.indices)) { index in
                     Button(action: { selectedCard = tarotDeck.cards[index] }) {
-                        Text(tarotDeck.cards[index].emoji) // Show the emoji of the card
+                        Text("🎴")
                     }
                     .frame(width: 30, height: 30)
                 }
