@@ -15,9 +15,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if let card = selectedCard {
-                Text("\(card.name) - \(card.description)")
-                    .font(.headline)
-                    .padding()
+                Text("\(card.emoji) \(card.name) - \(card.description)")
+                Text(card.isReversed ? "Reversed" : "Upright")
+                    .font(.subheadline)
+                    .foregroundColor(card.isReversed ? .red : .green)
                 Button(action: { selectedCard = nil }) {
                     Text("Back to deck")
                 }
@@ -26,7 +27,7 @@ struct ContentView: View {
                     Button(action: { selectedCard = tarotDeck.cards[index] }) {
                         Text("🎴")
                     }
-                    .frame(width: 70, height: 70)
+                    .frame(width: 30, height: 30)
                 }
             }
         }
@@ -60,6 +61,7 @@ struct GridView<Content: View, ID: Hashable>: View {
 struct TarotCard: Equatable {
     var name: String
     var description: String
+    var emoji: String  // Add emoji property
     var isReversed: Bool
 }
 
@@ -68,11 +70,12 @@ struct TarotDeck {
     init() {
         let names = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
         let descriptions = ["A new beginning", "Power of manifestation", "Mystery", "Abundance", "Authority", "Wisdom", "Love", "Determination", "Courage", "Introspection", "Luck", "Fairness", "Sacrifice", "Change", "Balance", "Temptation", "Destruction", "Hope", "Fear", "Joy", "Rebirth", "Completion"]
+        let emojis = ["🤡", "🎩", "🌛", "👸", "👑", "🙏", "💑", "🏇", "💪", "🧙‍♂️", "🎡", "⚖️", "🙃", "☠️", "⚗️", "😈", "🏰", "🌟", "🌚", "🌞", "👼", "🌎"] // Add emojis
         var shuffledIndexes = Array(0..<22).shuffled()
         for _ in 0..<22 {
             let index = shuffledIndexes.removeLast()
             let isReversed = Bool.random()
-            let card = TarotCard(name: names[index], description: descriptions[index], isReversed: isReversed)
+            let card = TarotCard(name: names[index], description: descriptions[index], emoji: emojis[index], isReversed: isReversed)
             cards.append(card)
         }
     }
