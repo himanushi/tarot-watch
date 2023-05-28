@@ -16,16 +16,16 @@ struct ContentView: View {
         VStack {
             if let card = selectedCard {
                 Text("\(card.emoji) \(card.name) - \(card.description)")
-                Text(card.isReversed ? "Reversed" : "Upright")
+                Text(card.isReversed ? "逆位置" : "正位置")
                     .font(.subheadline)
                     .foregroundColor(card.isReversed ? .red : .green)
                 Button(action: { selectedCard = nil }) {
-                    Text("Back to deck")
+                    Text("デッキに戻る")
                 }
             } else {
                 GridView(Array(tarotDeck.cards.indices)) { index in
                     Button(action: { selectedCard = tarotDeck.cards[index] }) {
-                        Text("🎴")
+                        Text(tarotDeck.cards[index].emoji) // Show the emoji of the card
                     }
                     .frame(width: 30, height: 30)
                 }
@@ -68,8 +68,8 @@ struct TarotCard: Equatable {
 struct TarotDeck {
     var cards: [TarotCard] = []
     init() {
-        let names = ["The Fool", "The Magician", "The High Priestess", "The Empress", "The Emperor", "The Hierophant", "The Lovers", "The Chariot", "Strength", "The Hermit", "Wheel of Fortune", "Justice", "The Hanged Man", "Death", "Temperance", "The Devil", "The Tower", "The Star", "The Moon", "The Sun", "Judgement", "The World"]
-        let descriptions = ["A new beginning", "Power of manifestation", "Mystery", "Abundance", "Authority", "Wisdom", "Love", "Determination", "Courage", "Introspection", "Luck", "Fairness", "Sacrifice", "Change", "Balance", "Temptation", "Destruction", "Hope", "Fear", "Joy", "Rebirth", "Completion"]
+        let names = ["愚者", "魔術師", "女教皇", "女帝", "皇帝", "教皇", "恋人", "戦車", "力", "隠者", "運命の輪", "正義", "吊された男", "死神", "節制", "悪魔", "塔", "星", "月", "太陽", "審判", "世界"]
+        let descriptions = ["新たな始まり", "実現の力", "神秘", "豊穣", "権威", "知恵", "愛", "決定", "勇気", "内省", "運命", "公平", "犠牲", "変化", "バランス", "誘惑", "破壊", "希望", "恐怖", "喜び", "再生", "完結"]
         let emojis = ["🤡", "🎩", "🌛", "👸", "👑", "🙏", "💑", "🏇", "💪", "🧙‍♂️", "🎡", "⚖️", "🙃", "☠️", "⚗️", "😈", "🏰", "🌟", "🌚", "🌞", "👼", "🌎"] // Add emojis
         var shuffledIndexes = Array(0..<22).shuffled()
         for _ in 0..<22 {
