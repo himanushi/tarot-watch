@@ -31,12 +31,15 @@ struct ContentView: View {
                         Text("🎴")
                     }
                     .frame(width: 30, height: 30)
+                    if index == 2 {
+                        Spacer()
+                    }
                 }
             }
         }
         .onChange(of: selectedCard) { value in
             if value == nil {
-                tarotDeck = TarotDeck() // Reshuffle the deck when back to deck
+                tarotDeck = TarotDeck()
             }
         }
     }
