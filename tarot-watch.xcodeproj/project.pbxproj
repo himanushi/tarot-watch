@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AC7344F2A22D29700ED3E60 /* tarot-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3AC7344E2A22D29700ED3E60 /* tarot-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3AC734542A22D29700ED3E60 /* tarot_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC734532A22D29700ED3E60 /* tarot_watchApp.swift */; };
+		3AC734562A22D29700ED3E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC734552A22D29700ED3E60 /* ContentView.swift */; };
+		3AC734582A22D29800ED3E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC734572A22D29800ED3E60 /* Assets.xcassets */; };
+		3AC7345B2A22D29800ED3E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC7345A2A22D29800ED3E60 /* Preview Assets.xcassets */; };
+		3AC734652A22D29800ED3E60 /* tarot_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC734642A22D29800ED3E60 /* tarot_watch_Watch_AppTests.swift */; };
+		3AC7346F2A22D29800ED3E60 /* tarot_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC7346E2A22D29800ED3E60 /* tarot_watch_Watch_AppUITests.swift */; };
+		3AC734712A22D29800ED3E60 /* tarot_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC734702A22D29800ED3E60 /* tarot_watch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC734502A22D29700ED3E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC734422A22D29700ED3E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC7344D2A22D29700ED3E60;
+			remoteInfo = "tarot-watch Watch App";
+		};
+		3AC734612A22D29800ED3E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC734422A22D29700ED3E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC7344D2A22D29700ED3E60;
+			remoteInfo = "tarot-watch Watch App";
+		};
+		3AC7346B2A22D29800ED3E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AC734422A22D29700ED3E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AC7344D2A22D29700ED3E60;
+			remoteInfo = "tarot-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3AC734772A22D29800ED3E60 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3AC7344F2A22D29700ED3E60 /* tarot-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3AC734482A22D29700ED3E60 /* tarot-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tarot-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC7344E2A22D29700ED3E60 /* tarot-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tarot-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC734532A22D29700ED3E60 /* tarot_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarot_watchApp.swift; sourceTree = "<group>"; };
+		3AC734552A22D29700ED3E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AC734572A22D29800ED3E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AC7345A2A22D29800ED3E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AC734602A22D29800ED3E60 /* tarot-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tarot-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC734642A22D29800ED3E60 /* tarot_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarot_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3AC7346A2A22D29800ED3E60 /* tarot-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tarot-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC7346E2A22D29800ED3E60 /* tarot_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarot_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3AC734702A22D29800ED3E60 /* tarot_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tarot_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AC7344B2A22D29700ED3E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC7345D2A22D29800ED3E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC734672A22D29800ED3E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC734412A22D29700ED3E60 = {
+			isa = PBXGroup;
+			children = (
+				3AC734522A22D29700ED3E60 /* tarot-watch Watch App */,
+				3AC734632A22D29800ED3E60 /* tarot-watch Watch AppTests */,
+				3AC7346D2A22D29800ED3E60 /* tarot-watch Watch AppUITests */,
+				3AC734492A22D29700ED3E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AC734492A22D29700ED3E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AC734482A22D29700ED3E60 /* tarot-watch.app */,
+				3AC7344E2A22D29700ED3E60 /* tarot-watch Watch App.app */,
+				3AC734602A22D29800ED3E60 /* tarot-watch Watch AppTests.xctest */,
+				3AC7346A2A22D29800ED3E60 /* tarot-watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AC734522A22D29700ED3E60 /* tarot-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3AC734532A22D29700ED3E60 /* tarot_watchApp.swift */,
+				3AC734552A22D29700ED3E60 /* ContentView.swift */,
+				3AC734572A22D29800ED3E60 /* Assets.xcassets */,
+				3AC734592A22D29800ED3E60 /* Preview Content */,
+			);
+			path = "tarot-watch Watch App";
+			sourceTree = "<group>";
+		};
+		3AC734592A22D29800ED3E60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AC7345A2A22D29800ED3E60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AC734632A22D29800ED3E60 /* tarot-watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC734642A22D29800ED3E60 /* tarot_watch_Watch_AppTests.swift */,
+			);
+			path = "tarot-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3AC7346D2A22D29800ED3E60 /* tarot-watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AC7346E2A22D29800ED3E60 /* tarot_watch_Watch_AppUITests.swift */,
+				3AC734702A22D29800ED3E60 /* tarot_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "tarot-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AC734472A22D29700ED3E60 /* tarot-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC734782A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch" */;
+			buildPhases = (
+				3AC734462A22D29700ED3E60 /* Resources */,
+				3AC734772A22D29800ED3E60 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC734512A22D29700ED3E60 /* PBXTargetDependency */,
+			);
+			name = "tarot-watch";
+			productName = "tarot-watch";
+			productReference = 3AC734482A22D29700ED3E60 /* tarot-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3AC7344D2A22D29700ED3E60 /* tarot-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC734742A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch Watch App" */;
+			buildPhases = (
+				3AC7344A2A22D29700ED3E60 /* Sources */,
+				3AC7344B2A22D29700ED3E60 /* Frameworks */,
+				3AC7344C2A22D29700ED3E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tarot-watch Watch App";
+			productName = "tarot-watch Watch App";
+			productReference = 3AC7344E2A22D29700ED3E60 /* tarot-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AC7345F2A22D29800ED3E60 /* tarot-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC7347B2A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch Watch AppTests" */;
+			buildPhases = (
+				3AC7345C2A22D29800ED3E60 /* Sources */,
+				3AC7345D2A22D29800ED3E60 /* Frameworks */,
+				3AC7345E2A22D29800ED3E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC734622A22D29800ED3E60 /* PBXTargetDependency */,
+			);
+			name = "tarot-watch Watch AppTests";
+			productName = "tarot-watch Watch AppTests";
+			productReference = 3AC734602A22D29800ED3E60 /* tarot-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AC734692A22D29800ED3E60 /* tarot-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC7347E2A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch Watch AppUITests" */;
+			buildPhases = (
+				3AC734662A22D29800ED3E60 /* Sources */,
+				3AC734672A22D29800ED3E60 /* Frameworks */,
+				3AC734682A22D29800ED3E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AC7346C2A22D29800ED3E60 /* PBXTargetDependency */,
+			);
+			name = "tarot-watch Watch AppUITests";
+			productName = "tarot-watch Watch AppUITests";
+			productReference = 3AC7346A2A22D29800ED3E60 /* tarot-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AC734422A22D29700ED3E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3AC734472A22D29700ED3E60 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3AC7344D2A22D29700ED3E60 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3AC7345F2A22D29800ED3E60 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3AC7344D2A22D29700ED3E60;
+					};
+					3AC734692A22D29800ED3E60 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3AC7344D2A22D29700ED3E60;
+					};
+				};
+			};
+			buildConfigurationList = 3AC734452A22D29700ED3E60 /* Build configuration list for PBXProject "tarot-watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AC734412A22D29700ED3E60;
+			productRefGroup = 3AC734492A22D29700ED3E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AC734472A22D29700ED3E60 /* tarot-watch */,
+				3AC7344D2A22D29700ED3E60 /* tarot-watch Watch App */,
+				3AC7345F2A22D29800ED3E60 /* tarot-watch Watch AppTests */,
+				3AC734692A22D29800ED3E60 /* tarot-watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AC734462A22D29700ED3E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC7344C2A22D29700ED3E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC7345B2A22D29800ED3E60 /* Preview Assets.xcassets in Resources */,
+				3AC734582A22D29800ED3E60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC7345E2A22D29800ED3E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC734682A22D29800ED3E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AC7344A2A22D29700ED3E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC734562A22D29700ED3E60 /* ContentView.swift in Sources */,
+				3AC734542A22D29700ED3E60 /* tarot_watchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC7345C2A22D29800ED3E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC734652A22D29800ED3E60 /* tarot_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AC734662A22D29800ED3E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC7346F2A22D29800ED3E60 /* tarot_watch_Watch_AppUITests.swift in Sources */,
+				3AC734712A22D29800ED3E60 /* tarot_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AC734512A22D29700ED3E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC7344D2A22D29700ED3E60 /* tarot-watch Watch App */;
+			targetProxy = 3AC734502A22D29700ED3E60 /* PBXContainerItemProxy */;
+		};
+		3AC734622A22D29800ED3E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC7344D2A22D29700ED3E60 /* tarot-watch Watch App */;
+			targetProxy = 3AC734612A22D29800ED3E60 /* PBXContainerItemProxy */;
+		};
+		3AC7346C2A22D29800ED3E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AC7344D2A22D29700ED3E60 /* tarot-watch Watch App */;
+			targetProxy = 3AC7346B2A22D29800ED3E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AC734722A22D29800ED3E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AC734732A22D29800ED3E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3AC734752A22D29800ED3E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tarot-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "tarot-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3AC734762A22D29800ED3E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tarot-watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "tarot-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		3AC734792A22D29800ED3E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				INFOPLIST_KEY_CFBundleDisplayName = "tarot-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3AC7347A2A22D29800ED3E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				INFOPLIST_KEY_CFBundleDisplayName = "tarot-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AC7347C2A22D29800ED3E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tarot-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3AC7347D2A22D29800ED3E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tarot-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tarot-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		3AC7347F2A22D29800ED3E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "tarot-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3AC734802A22D29800ED3E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A89F7FVFR5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.himakan.apps.tarot-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "tarot-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AC734452A22D29700ED3E60 /* Build configuration list for PBXProject "tarot-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC734722A22D29800ED3E60 /* Debug */,
+				3AC734732A22D29800ED3E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC734742A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC734752A22D29800ED3E60 /* Debug */,
+				3AC734762A22D29800ED3E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC734782A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC734792A22D29800ED3E60 /* Debug */,
+				3AC7347A2A22D29800ED3E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC7347B2A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC7347C2A22D29800ED3E60 /* Debug */,
+				3AC7347D2A22D29800ED3E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AC7347E2A22D29800ED3E60 /* Build configuration list for PBXNativeTarget "tarot-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC7347F2A22D29800ED3E60 /* Debug */,
+				3AC734802A22D29800ED3E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AC734422A22D29700ED3E60 /* Project object */;
+}
