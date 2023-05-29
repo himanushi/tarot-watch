@@ -26,13 +26,19 @@ struct ContentView: View {
                     Text("デッキに戻る")
                 }
             } else {
-                GridView(Array(tarotDeck.cards.indices)) { index in
+                GridView(Array(0..<tarotDeck.cards.count)) { index in
                     Button(action: { selectedCard = tarotDeck.cards[index] }) {
-                        Text("🎴")
+                            Text("🎴")
                     }
                     .frame(width: 30, height: 30)
+
                     if index == 2 {
                         Spacer()
+                    } else if index == 21 {
+                        Button(action: { tarotDeck = TarotDeck() }) {
+                            Text("🔄") // Shuffle emoji
+                        }
+                        .frame(width: 30, height: 30)
                     }
                 }
             }
