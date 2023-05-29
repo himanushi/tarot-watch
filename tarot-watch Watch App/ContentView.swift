@@ -17,6 +17,7 @@ struct ContentView: View {
             if let card = selectedCard {
                 Text("\(card.emoji)")
                     .font(.largeTitle)
+                    .rotationEffect(.degrees(card.isReversed ? 180 : 0)) // Rotate the emoji if the card is reversed
                 Text("\(card.name)")
                 Text(card.isReversed ? "逆位置" : "正位置")
                     .font(.subheadline)
