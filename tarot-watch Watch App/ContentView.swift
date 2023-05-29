@@ -17,21 +17,21 @@ struct ContentView: View {
             if let card = selectedCard {
                 Text("\(card.emoji)")
                     .font(.largeTitle)
-                    .rotationEffect(.degrees(card.isReversed ? 180 : 0)) // Rotate the emoji if the card is reversed
+                    .rotationEffect(.degrees(card.isReversed ? 180 : 0))
                 Text("\(card.name)")
                 Text(card.isReversed ? "逆位置" : "正位置")
                     .font(.subheadline)
                     .foregroundColor(card.isReversed ? .red : .green)
                 Text("\(card.description)")
                 Button(action: { selectedCard = nil }) {
-                    Text("デッキに戻る")
+                    Text("シャッフル")
                 }
             } else {
                 GridView(Array(0..<tarotDeck.cards.count)) { index in
                     Button(action: { selectedCard = tarotDeck.cards[index] }) {
-                            Text("🎴")
+                        Text("🎴")
                     }
-                    .frame(width: 30, height: 30)
+                    .frame(width: 40, height: 30)
 
                     if index == 2 {
                         Spacer()
@@ -39,7 +39,7 @@ struct ContentView: View {
                         Button(action: { tarotDeck = TarotDeck() }) {
                             Text("🔄") // Shuffle emoji
                         }
-                        .frame(width: 30, height: 30)
+                        .frame(width: 40, height: 30)
                     }
                 }
             }
